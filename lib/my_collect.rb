@@ -1,4 +1,4 @@
-def my_each(array)
+def collect(array)
   i = 0
   while i < array.length
       yield(array[i])
